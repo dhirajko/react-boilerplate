@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.md-form .prefix ~ label {
+  margin-left: 2.5rem;
+}
+
+.md-form label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  transition: transform .2s ease-out, color .2s ease-out;
+  transform-origin: 0% 100%;
+  transform: translateY(12px);
+  cursor: text;
+  color: #757575;
+}
+
+.md-form label {
+  font-size: 1rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
