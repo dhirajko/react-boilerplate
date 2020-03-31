@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+:root{
+  --SONA-color : #6d1414;
+  --primary-color : #CAEBF2;
+  --board-color: #A9A9A9;
+  --highlighted-red-color : #FF3B3F;
+  --neutral-color: #EFEFEF;
+  --main-padding : 15px;
+
+}

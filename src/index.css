@@ -1,0 +1,54 @@
+.main-nav-text{
+  letter-spacing: -1px;
+  font-weight: bold;
+  font-size: smaller;
+}
+
+
+.sub-nav-text{
+  color: #929696;
+  font-size: small;
+  padding-left: 10px;
+}
+
+.main-text{
+  color: #252d3a;
+  letter-spacing: -1px;
+}
+
+.barely-visible-text{
+  color: #bec6dc;
+  font-size: small;
+  text-align: center;
+}
+
+.sideNumbers {
+  color: #bdc3d2;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+body{
+  overflow: hidden !important;
+  background: #e7ebee !important;
+}
+
+.scrollableDiv{
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.dotted-borders{
+  border: 1px dashed gray !important;
+  background: transparent !important;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.light-blue-btn{
+  background: deepskyblue !important;
+}
+
+
